@@ -1,12 +1,13 @@
-def my_each(collection)
+def my_each(words)
   if blockgiven?
     i = 0
-    while i < collection.length
-      yield collection[i]
+    while i < words.length
+      yield words[i]
       i = i + 1
     end
-    collection
+    words
   else
     "Hey! No block was given"
   end
 end
+
