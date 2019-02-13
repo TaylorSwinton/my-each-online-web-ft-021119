@@ -1,12 +1,8 @@
 def my_each(words)
-  if blockgiven?
     i = 0
     while i < words.length
       yield words[i]
       i = i + 1
     end
     words
-  else
-    "Hey! No block was given"
-  end
 end
