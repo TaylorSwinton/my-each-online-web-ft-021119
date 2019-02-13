@@ -1,9 +1,9 @@
 def my_each(collection)
   if blockgiven?
     i = 0
-    while 
+    while
 
-      
+
     end
     array
   else
