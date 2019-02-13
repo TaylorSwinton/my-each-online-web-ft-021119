@@ -10,4 +10,3 @@ def my_each(words)
     "Hey! No block was given"
   end
 end
-
