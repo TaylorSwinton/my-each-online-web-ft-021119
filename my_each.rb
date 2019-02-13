@@ -10,4 +10,3 @@ def my_each(collection)
     "Hey! No block was given"
   end
 end
-
